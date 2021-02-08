@@ -9,6 +9,6 @@ export default function Page({ children }) {
   );
 }
 
-Page.PropTypes = {
+Page.propTypes = {
   children: PropTypes.arrayOf(PropTypes.node),
 };
